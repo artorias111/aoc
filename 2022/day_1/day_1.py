@@ -15,7 +15,10 @@ for i in f:
 	x+=int(i)
 s.append(x)
 
+f.close()
+
 s.sort()
 print(s)
 print('***')
 print(s[-1]+s[-2]+s[-3])
+
